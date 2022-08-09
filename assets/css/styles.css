@@ -1,7 +1,7 @@
 body {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: JetBrains Mono;
 	font-size: 1.5rem;
-	background-color: lightskyblue;
+	background-color: lightblue;
 	color: hsl(43, 74%, 19%);
 }
 
@@ -16,14 +16,25 @@ h2 {
 	text-align: center;
 	background-color: lightgoldenrodyellow;
 	margin: 0 80px;
-	padding: 10px 0;
+	padding: 10px 0 25px 0;
 	border-radius: 15px;
 	box-shadow: 2px 2px 7px 1px #aaa;
-	justify-content: center;
 }
 
 button:hover {
-	transform: scale(1.1);
+	transform: scale(1.08);
+	transition: 0.3s;
+}
+
+button {
+	transition: 0.5s;
+}
+
+#decrementar:active,
+#incrementar:active,
+#reset:active {
+	background-color: darkgoldenrod;
+	transform: scale(1);
 }
 
 #decrementar,
@@ -31,6 +42,7 @@ button:hover {
 #reset {
 	border: 2px solid #aaa;
 	border-radius: 15px;
+	font-family: JetBrains Mono;
 	font-size: 30px;
 	padding: 10px;
 	margin: 15px;
@@ -40,9 +52,11 @@ button:hover {
 
 #decrementar {
 	background-color: hsl(120, 73%, 70%);
+	width: 65px;
 }
 #incrementar {
 	background-color: navy;
+	width: 65px;
 }
 #reset {
 	background-color: darkred;
