@@ -1,0 +1,49 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1.5rem;
+	background-color: lightskyblue;
+	color: hsl(43, 74%, 19%);
+}
+
+h2 {
+	color: orange;
+	font-family: JetBrains Mono;
+	font-size: 130px;
+	padding: 0;
+	margin: 30px;
+}
+.container {
+	text-align: center;
+	background-color: lightgoldenrodyellow;
+	margin: 0 80px;
+	padding: 10px 0;
+	border-radius: 15px;
+	box-shadow: 2px 2px 7px 1px #aaa;
+	justify-content: center;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+#decrementar,
+#incrementar,
+#reset {
+	border: 2px solid #aaa;
+	border-radius: 15px;
+	font-size: 30px;
+	padding: 10px;
+	margin: 15px;
+	color: mistyrose;
+	box-shadow: 2px 2px 7px 1px #aaa;
+}
+
+#decrementar {
+	background-color: hsl(120, 73%, 70%);
+}
+#incrementar {
+	background-color: navy;
+}
+#reset {
+	background-color: darkred;
+}
